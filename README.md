@@ -70,21 +70,6 @@ English Generation:
 ## Languages supported
  Afrikaans (af), Arabic (ar), Armenian (hy), Azerbaijani (az), Basque (eu), Bashkir (ba), Belarusian (be), Bengali (bn), Bulgarian (bg), Burmese (my), Buryat (bxr), Chuvash (cv), Danish (da), English (en), Estonian (et), Finnish (fi), French (fr), Georgian (ka), German (de), Greek (el), Hebrew (he), Hindi (hi), Hungarian (hu), Indonesian (id), Italian (it), Japanese (ja), Javanese (jv), Kalmyk (xal), Kazakh (kk), Korean (ko), Kyrgyz (ky), Latvian (lv), Lithuanian (lt), Malay (ms), Malayalam (ml), Marathi (mr), Mongolian (mn), Ossetian (os), Persian (fa), Polish (pl), Portuguese (pt), Romanian (ro), Russian (ru), Spanish (es), Swedish (sv), Swahili (sw), Tatar (tt), Telugu (te), Thai (th), Turkish (tr), Turkmen (tk), Tuvan (tyv), Ukrainian (uk), Uzbek (uz), Vietnamese (vi), Yakut (sax), Yoruba (yo)
 
- ## Cite Us 
-
- ```
-@misc{https://doi.org/10.48550/arxiv.2204.07580,
-  doi = {10.48550/ARXIV.2204.07580},
-  url = {https://arxiv.org/abs/2204.07580},
-  author = {Shliazhko, Oleh and Fenogenova, Alena and Tikhonova, Maria and Mikhailov, Vladislav and Kozlova, Anastasia and Shavrina, Tatiana},
-  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences, I.2; I.2.7, 68-06, 68-04, 68T50, 68T01},
-  title = {mGPT: Few-Shot Learners Go Multilingual},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
- ```
-
 ## Pretraining
 [[mGPT-1.3B Model Card]](https://huggingface.co/ai-forever/mGPT)
 [[mGPT-13B Model Card]](https://huggingface.co/ai-forever/mGPT-13B)
@@ -123,3 +108,17 @@ Monolingual models on HuggingFace:
 
 ## Contributing
 We welcome community contributions to the model, and celebrate both its inference and training technique enhancements.
+
+ ## Cite Us 
+
+ ```
+@article{shliazhko2024mgpt,
+  title={mGPT: Few-Shot Learners Go Multilingual},
+  author={Shliazhko, Oleh and Fenogenova, Alena and Tikhonova, Maria and Kozlova, Anastasia and Mikhailov, Vladislav and Shavrina, Tatiana},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={12},
+  pages={58--79},
+  year={2024},
+  publisher={MIT Press One Broadway, 12th Floor, Cambridge, Massachusetts 02142, USA~…}
+}
+ ```
